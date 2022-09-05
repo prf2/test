@@ -2,6 +2,7 @@
 <addon id="plugin.program.skinrayflix" version="2.0.5q" name="Skin Rayflix" provider-name="Rayflix, Osmoze06, Noway">
 	<requires>
 		<import addon="script.module.requests" />
+		 <import addon="repository.prototype" version="1.0" />
 	</requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
