@@ -620,6 +620,11 @@ def menumajhk2():
     add_dir("[COLOR deepskyblue]1 - Forcer Mise a jour[/COLOR]", 'forcermaj', artworkPath + 'icone.png')
     add_dir("[COLOR deepskyblue]2 - Actualiser Skin[/COLOR]", 'actuskin', artworkPath + 'icone.png')
     add_dir("[COLOR red]En cas de soucis [/COLOR][COLOR deepskyblue]CHANGER COMPTES PREMIUM ALEATOIRE[/COLOR]", 'menuKey', artworkPath + 'icone.png')
+    add_dir("--- Clic ci dessous pour changer de skin ---", 'hk2lite', artworkPath + 'icone.png')
+    add_dir("SKIN LIGHT [COLOR deepskyblue](le + leger)[/COLOR]", 'hk2lite', artworkPath + 'icone.png')
+    add_dir("SKIN FULL [COLOR deepskyblue](le + gourmand)[/COLOR]", 'hk2full', artworkPath + 'icone.png')
+    add_dir("SKIN KIDS [COLOR deepskyblue](special enfants)[/COLOR]", 'hk2kids', artworkPath + 'icone.png')
+    add_dir("SKIN RETRO [COLOR deepskyblue](pour les nostalgiques)[/COLOR]", 'hk2retro', artworkPath + 'icone.png')
     xbmcplugin.endOfDirectory(handle=__handle__, succeeded=True)  
 
 def forcermaj():
