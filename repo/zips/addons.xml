@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.program.skinrayflix" version="2.0.2p" name="Skin Rayflix" provider-name="Rayflix, Osmoze06, Noway">
+	<requires>
+		<import addon="script.module.requests" />
+	</requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Skin Rayflix</summary>
+        <description lang="en">Packages de Skin réalisé par Rayflix sur la monture du skin "Project Aura".</description>
+        <disclaimer lang="en">En cas de bugs, propositions d'améliorations ou ajout de contenus, contactez-nous sur Discord.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <forum />
+        <website />
+        <source />
+    <news>
+VERSION 1.0.1 - 28/10/2021
+- Création initiale
+    </news>		
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>		
+    </extension>
+</addon><addon id="repository.RayRepo" name="RayRepo Alpha Repository" version="1.0" provider-name="Rayflix">
+    <extension point="xbmc.addon.repository" name="RayRepo Alpha Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/UpKobox/RayRepo.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/UpKobox/RayRepo.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/UpKobox/RayRepo.github.io/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>RayRepo Alpha Repository</summary>
+        <description>Repo de Rayflix</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="repository.UpKobox" name="UpKobox Alpha Repository" version="1.0" provider-name="UpKobox">
+    <extension point="xbmc.addon.repository" name="UpKobox Alpha Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/UpKobox/repository.UpKobox/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/UpKobox/repository.UpKobox/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/UpKobox/repository.UpKobox/master/repo/zips/</datadir>
+        </dir>
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/UpKobox/repository.UpKobox/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/UpKobox/repository.UpKobox/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/UpKobox/repository.UpKobox/master/matrix/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>UpKobox Alpha Repository</summary>
+        <description>Un référentiel pour les versions alpha </description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
