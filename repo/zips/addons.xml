@@ -1,20 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="catchuptvandmore.kodi.release" name="Catch-up TV &amp; More's Release repository" version="0.0.6" provider-name="SylvainCecchetto, wwark">
-  <requires>
-    <import addon="xbmc.addon" version="17.0.0" />
-  </requires>
-  <extension point="xbmc.addon.repository" name="Catch-up TV &amp; More's Release repository">
-    <info compressed="false">https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/release/addons.xml</info>
-    <checksum>https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/release/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/release</datadir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Install Add-ons from Catch-up TV &amp; More repository</summary>
-    <description>Download and install Catch-up TV &amp; More add-on in its latest official version from the official developers repository. As soon as a new release version is published on the GitHub repository of Catch-up TV &amp; More, this version is available in this repository.</description>
-    <platform>all</platform>
-    <website>https://catch-up-tv-and-more.github.io/</website>
-  </extension>
-</addon><addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.5" provider-name="Philipp Temminghoff (phil65), sualfred, xulek, finkleandeinhorn">
+<addons><addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.5" provider-name="Philipp Temminghoff (phil65), sualfred, xulek, finkleandeinhorn">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.autocompletion" version="2.0.3" />
@@ -243,23 +228,6 @@ See https://github.com/Catch-up-TV-and-More/plugin.video.catchuptvandmore/releas
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon><addon id="repository.prototype" name="ProtoType Repo" version="1.0" provider-name="ProtoType">
-    <extension point="xbmc.addon.repository" name="ProtoType Repository">
-        <dir>
-			<info compressed="false">https://raw.githubusercontent.com/ProtoTypeRepo/ProtoTypeRepo.github.io/main/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/ProtoTypeRepo/ProtoTypeRepo.github.io/main/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/ProtoTypeRepo/ProtoTypeRepo.github.io/main/zips/</datadir>
-		</dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>ProtoType Repo</summary>
-        <description>A repository for the things that I wanted to change. In my head I'm fixing them, results may vary. :)</description>
-        <disclaimer />
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
         </assets>
     </extension>
 </addon><addon id="repository.vstream" name="vStream Repository" version="0.0.6" provider-name="Venom">
