@@ -21,13 +21,12 @@
             
         </assets>
     </extension>
-</addon><addon id="plugin.program.skinrayflix" version="2.0.5r" name="Skin Rayflix" provider-name="Rayflix, Osmoze06, Noway">
+</addon><addon id="plugin.program.skinrayflix" version="2.0.5s" name="Skin Rayflix" provider-name="Rayflix, Osmoze06, Noway">
 	<requires>
-		<import addon="script.module.requests" />
-        <import addon="service.upnext" version="1.1.5+matrix.1" />
-        <import addon="repository.prototype" version="1.0" />
-        <import addon="skin.project.aura" version="1.0.1" />        
-        <import addon="plugin.video.catchuptvandmore" version="0.2.37" />
+        <import addon="script.module.requests" />
+        <import addon="service.upnext" />
+        <import addon="skin.project.aura" />        
+        <import addon="plugin.video.catchuptvandmore" />
 	</requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
