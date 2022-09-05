@@ -27,9 +27,9 @@ VERSION 1.0.1 - 28/10/2021
 </addon><addon id="repository.RayRepo" name="RayRepo Alpha Repository" version="1.0" provider-name="Rayflix">
     <extension point="xbmc.addon.repository" name="RayRepo Alpha Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/UpKobox/RayRepo.github.io/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/UpKobox/RayRepo.github.io/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/UpKobox/RayRepo.github.io/master/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/prf2/test/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/prf2/test/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/prf2/test/main/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
